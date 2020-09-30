@@ -1,1 +1,7 @@
 body {background-color: #FAEBD7}
+
+img {
+width: 40%;
+border: 2px ;
+height: 70px;
+}
