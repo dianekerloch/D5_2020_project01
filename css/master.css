@@ -1,8 +1,19 @@
 body {background-color: #FAEBD7}
 
+header img {
+width: 40%;
+border: 1px ;
+height: 70px;
+}
+
+footer img {
+width: 40%;
+border: 1px ;
+height: 70px;
+}
+
 img {
 width: 40%;
-border: 2px ;
 height: 70px;
 }
 
@@ -10,39 +21,42 @@ height: 70px;
 
 header {
   min-height: 20vh;
-  padding: 1em;
+  padding: 2em;
   display: flex;
   justify-content:flex-end;
-  align-items:flex-end;
   position: relative;
 }
 
-header img {
-  display: flex;
-left:70%;
-z-index: 40;
-}
 
-.container {
+.container1 {
  flex-direction: row;
   flex-wrap: nowrap;
- display: flex;
- justify-content: space-evenly;
+ display: inline-flex;
   align-items: flex-end;
-  align-content: center;
-
 }
 
+.item1 {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
 
-.button {
+.button1 {
   position: center;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 50px 30px 50px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: flex;
   font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
+}
+
+.button li {
+left: 10%;
+padding: 0px 50px 100px 0px;
+
+
+
 }
