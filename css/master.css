@@ -20,7 +20,7 @@ height: 70px;
 
 
 header {
-  min-height: 20vh;
+  min-height: 10vh;
   padding: 2em;
   display: flex;
   justify-content:flex-end;
@@ -41,11 +41,24 @@ header {
   padding: 10px;
 }
 
+.container2 {
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+background: rgb(248, 248, 255, 0.4)
+}
+
+
 .button1 {
-  position: center;
+  w
+position: absolute;
+top: 100%;
+right: 50%;
+left: : 50%;
   border: none;
   color: white;
-  padding: 10px 50px 30px 50px;
+  padding: 10px 50px 10px 50px;
   text-align: center;
   text-decoration: none;
   display: flex;
@@ -53,10 +66,16 @@ header {
   cursor: pointer;
 }
 
-.button li {
-left: 10%;
-padding: 0px 50px 100px 0px;
 
+#main-content{
+  background: rgb(248, 248, 255, 0.4);
+  padding: 40px;
+}
 
-
+.container4{
+display: grid;
+grid-template-columns: 45% 45%;
+align-items: start;
+justify-content: space-between;
+row-gap: 150px;
 }
