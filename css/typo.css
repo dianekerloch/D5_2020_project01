@@ -51,7 +51,7 @@ body {
   min-height: 100vh;
 }
 
-p {margin-bottom: 1.15rem;}
+
 
 
 h1 {
@@ -81,6 +81,11 @@ display: grid;
 align-items: start;
 padding: 50px 50px 75px 50px;
 background: rgb(248, 248, 255, 0.4)
+}
+
+
+#bio {font-family: 'masqualero',sans-serif;
+font-style: italic;
 }
 
 h1 {
