@@ -6,8 +6,9 @@ height: 70px;
 }
 
 footer img {
-max-width: 60px;
+max-width: 80px;
 height: auto;
+top: 30px;
 }
 
 img {
@@ -16,7 +17,7 @@ height: 70px;
 }
 
 #neil {
-  width: 100px;
+  width:50%;
   object-fit:contain;
   height: auto;
 }
@@ -29,7 +30,11 @@ header {
   position: relative;
 }
 
-ul {
+footer{
+  padding-top: 100px;
+}
+
+footer ul {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -38,8 +43,26 @@ ul {
 
 }
 
+ #read {
+   display: flex;
+   flex-direction: row;
+  align-items: center;
+    justify-content: space-around;
+     width: auto;
+ }
+
+#back {
+  display: flex;
+  flex-direction: row;
+ align-items: center;
+   justify-content: space-around;
+    width: auto;
+
+}
 
 .container {
+padding-top: 50px;
+padding-bottom: 0px;
   flex-direction: row;
   align-items: flex-end;
   justify-content: center;
@@ -69,28 +92,20 @@ top:0%;
 }
 
 
+
 .button1 {
   display:flex;  border: none;
   justify-content: center;
   position: center;
   color: white;
-  text-align: center;
-  font-size: 16px;
-  cursor: pointer;
-  box-shadow:inset 0px 1px 0px 0px #ffffff;
-	color:#666666;
-	font-family:'masqualero',sans-serif;
-	font-size:15px;
-	font-weight:bold;
-	text-decoration:none;
-	text-shadow:0px 1px 17px #ffffff;
+  width: auto;
 }
 
 .button1:hover {
-	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background:linear-gradient( #f6f6f6 5%, #ffffff 100%);
 }
 .button1:active {
-	position:relative;
+	position:fixed;
 }
 
 
@@ -101,11 +116,19 @@ top:0%;
 
 .container4{
 display: grid;
-grid-template-columns: 45% 45%;
+grid-template-columns: 50% 50%;
 align-items: start;
 justify-content: space-between;
-row-gap: 150px;
+row-gap: 100px;
 }
+
+.container5{
+display: grid;
+grid-template-columns: 45% 45%;
+align-items: start;
+justify-content: space-evenly;
+}
+
 
 .bio {
     background: rgb(248, 248, 255, 0.4);
@@ -114,9 +137,49 @@ row-gap: 150px;
     flex-direction: row;
 }
 
-.active::before {
- content: "image/svg";
+
+.active1 {
+  position: relative;
+border-left: 1px solid #fff;
+  display: block;
+  height: 5vh;
+  width: 2em;
+}
+
+.active2 {
+  position: relative;
+border-left: 1px solid #fff;
+  display: block;
+  height: 12vh;
+  width: 2em;
+}
+
+.active3 {
+  position: relative;
+border-left: 1px solid #fff;
+  display: block;
+  height: 9vh;
+  width: 2em;
+}
+
+
+
+.active4 {
+  position: relative;
+border-left: 1px solid #fff;
+  display: block;
+  height: 7vh;
+  width: 2em;
+}
+
+.active2::before {
+ content: " ";
+ display: block;
+ height: 60px;
+ width: 60px;
  background-image: url('images/etoile.svg');
  position: absolute;
+ top: -70px;
+ left: -28px;
 
 }
