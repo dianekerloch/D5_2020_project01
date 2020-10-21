@@ -9,10 +9,38 @@ font-weight: 300;
 html {font-size: 100%;} /*16px*/
 
 
+
+
+
 :root {
   /* Set neon color */
   --neon-text-color: #F0FFFF;
 }
+
+header {
+font-family: 'masqualero', sans-serif;
+font-style: italic;
+}
+
+h3 {
+  font-family: 'masqualero', sans-serif;
+  font-style: italic;
+}
+
+
+.button {
+  font-family: 'masqualero', sans-serif;
+  font-style: italic;
+
+}
+
+
+#button1 {
+  display: flex;
+position: center;
+padding: 50px 50px 75px 50px;}
+
+
 
 body {
   background-color: white;
@@ -23,18 +51,41 @@ body {
   min-height: 100vh;
 }
 
-p {margin-bottom: 1.15rem;}
 
-h1, h3, h4, h5 {
+
+
+h1 {
   margin: 2.75rem 0 1.05rem;
   font-family: 'masqualero-groove', sans-serif;
   font-weight: 300;
   line-height: 1.15;
 }
 
+h4 {
+font-family: 'masqualero-groove', sans-serif;
+font-weight: 200;
+margin-top: 2em;
+margin-bottom: 2em;
+}
+
+#chap01 {
+  padding: 50px 50px 75px 50px;
+
+}
+
 #intro {font-family: 'masqualero',sans-serif;
 font-style: italic;
 font-size: 1.3em;
+justify-content: center;
+display: grid;
+align-items: start;
+padding: 50px 50px 75px 50px;
+background: rgb(248, 248, 255, 0.4)
+}
+
+
+#bio {font-family: 'masqualero',sans-serif;
+font-style: italic;
 }
 
 h1 {
@@ -42,7 +93,7 @@ h1 {
   font-size: 4.209em;
 }
 
-h2 {font-size: 3.157em;}
+h2 {font-size: 6em;}
 
 h3 {font-size: 2.369em;}
 
@@ -52,9 +103,11 @@ h5 {font-size: 1.333em;}
 
 small, .text_small {font-size: 1em;}
 
-h2 { font-family: 'masqualero-stencil',sans-serif;
+h2 {
+text-align: center;
+  font-family: 'masqualero-stencil',sans-serif;
   color: #fff;
-  padding: 1rem 2rem 1.5rem;
+  padding: 1rem 1rem 1rem;
     text-transform: uppercase;
   animation: flicker 1.5s infinite alternate;
 }
