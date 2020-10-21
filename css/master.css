@@ -6,8 +6,9 @@ height: 70px;
 }
 
 footer img {
-max-width: 60px;
+max-width: 80px;
 height: auto;
+top: 30px;
 }
 
 img {
@@ -16,7 +17,7 @@ height: 70px;
 }
 
 #neil {
-  width: 100px;
+  width: 30%;
   object-fit:contain;
   height: auto;
 }
@@ -29,7 +30,7 @@ header {
   position: relative;
 }
 
-ul {
+footer ul {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -38,8 +39,26 @@ ul {
 
 }
 
+ #read {
+   display: flex;
+   flex-direction: row;
+  align-items: center;
+    justify-content: space-around;
+     width: auto;
+ }
+
+#back {
+  display: flex;
+  flex-direction: row;
+ align-items: center;
+   justify-content: space-around;
+    width: auto;
+
+}
 
 .container {
+padding-top: 50px;
+padding-bottom: 0px;
   flex-direction: row;
   align-items: flex-end;
   justify-content: center;
@@ -69,21 +88,13 @@ top:0%;
 }
 
 
+
 .button1 {
   display:flex;  border: none;
   justify-content: center;
   position: center;
   color: white;
-  text-align: center;
-  font-size: 16px;
-  cursor: pointer;
-  box-shadow:inset 0px 1px 0px 0px #ffffff;
-	color:#666666;
-	font-family:'masqualero',sans-serif;
-	font-size:15px;
-	font-weight:bold;
-	text-decoration:none;
-	text-shadow:0px 1px 17px #ffffff;
+  width: auto;
 }
 
 .button1:hover {
@@ -115,7 +126,7 @@ row-gap: 150px;
 }
 
 .active::before {
- content: "image/svg";
+ content: "image/svd";
  background-image: url('images/etoile.svg');
  position: absolute;
 

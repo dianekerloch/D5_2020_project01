@@ -51,8 +51,21 @@ body {
   min-height: 100vh;
 }
 
+#read {
+  font-family: 'masqualero', sans-serif;
+  font-style: normal;
+  font-size: 1em;
+  justify-content: center;
+  display: grid;
+  align-items: start;
+  padding-left: 40px;
+}
 
 
+#back{
+  padding-left: 50px;
+
+}
 
 h1 {
   margin: 2.75rem 0 1.05rem;
@@ -70,7 +83,6 @@ margin-bottom: 2em;
 
 #chap01 {
   padding: 50px 50px 75px 50px;
-
 }
 
 #intro {font-family: 'masqualero',sans-serif;
