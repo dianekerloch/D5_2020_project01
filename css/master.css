@@ -17,7 +17,7 @@ height: 70px;
 }
 
 #neil {
-  width: 30%;
+  width:50%;
   object-fit:contain;
   height: auto;
 }
@@ -28,6 +28,10 @@ header {
   display: flex;
   justify-content:flex-end;
   position: relative;
+}
+
+footer{
+  padding-top: 100px;
 }
 
 footer ul {
@@ -98,10 +102,10 @@ top:0%;
 }
 
 .button1:hover {
-	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background:linear-gradient( #f6f6f6 5%, #ffffff 100%);
 }
 .button1:active {
-	position:relative;
+	position:fixed;
 }
 
 
@@ -112,11 +116,19 @@ top:0%;
 
 .container4{
 display: grid;
-grid-template-columns: 45% 45%;
+grid-template-columns: 50% 50%;
 align-items: start;
 justify-content: space-between;
-row-gap: 150px;
+row-gap: 100px;
 }
+
+.container5{
+display: grid;
+grid-template-columns: 45% 45%;
+align-items: start;
+justify-content: space-evenly;
+}
+
 
 .bio {
     background: rgb(248, 248, 255, 0.4);
@@ -125,9 +137,49 @@ row-gap: 150px;
     flex-direction: row;
 }
 
-.active::before {
- content: "image/svd";
+
+.active1 {
+  position: relative;
+border-left: 1px solid #fff;
+  display: block;
+  height: 5vh;
+  width: 2em;
+}
+
+.active2 {
+  position: relative;
+border-left: 1px solid #fff;
+  display: block;
+  height: 12vh;
+  width: 2em;
+}
+
+.active3 {
+  position: relative;
+border-left: 1px solid #fff;
+  display: block;
+  height: 9vh;
+  width: 2em;
+}
+
+
+
+.active4 {
+  position: relative;
+border-left: 1px solid #fff;
+  display: block;
+  height: 7vh;
+  width: 2em;
+}
+
+.active2::before {
+ content: " ";
+ display: block;
+ height: 60px;
+ width: 60px;
  background-image: url('images/etoile.svg');
  position: absolute;
+ top: -70px;
+ left: -28px;
 
 }
