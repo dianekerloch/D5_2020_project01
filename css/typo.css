@@ -25,7 +25,8 @@ font-style: italic;
 h3 {
   font-family: 'masqualero', sans-serif;
   font-style: italic;
-  color: #ADD8E6;
+  color: #E0FFFF;
+  line-height: 1.15;
 }
 
 
@@ -99,6 +100,7 @@ background: rgb(248, 248, 255, 0.4)
 
 #bio {font-family: 'masqualero',sans-serif;
 font-style: italic;
+padding-bottom: 2em;
 }
 
 h1 {
@@ -112,7 +114,8 @@ h3 {font-size: 2.369em;}
 
 h4 {font-size: 1.777em;}
 
-h5 {font-size: 1.333em;}
+h5 {font-size: 1.333em;
+padding-top: 1.5em;}
 
 small, .text_small {font-size: 1em;}
 
